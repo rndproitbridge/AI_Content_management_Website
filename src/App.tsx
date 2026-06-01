@@ -37,7 +37,7 @@ interface Toast {
   message: string;
 }
 
-const SHEETS_API_URL = "https://script.google.com/macros/s/AKfycbyoz2ekthXLMS6KzCXLyRr5dpoiRhkm-1U5fzFO3utMoSRx3_wpss-cn_W1whkAga4D/exec";
+const SHEETS_API_URL = "https://script.google.com/macros/s/AKfycbwjOhlCk7kukbcD3SXiFgrt0drOkyIu_vZ00aagqN8ronTFXZtMCuaxN3D2TCTkd5VP/exec";
 
 const CATEGORIES = [
   "Electronics", "Fashion", "Home & Living", "Sports & Fitness",
