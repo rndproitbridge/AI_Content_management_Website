@@ -253,8 +253,8 @@ export default function App() {
   // Filtered Products
   const filteredProducts = products.filter(p => {
     const matchesFilter = filter === 'all' || p.status === filter;
-    const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          p.category.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = (p.name || '').toLowerCase().includes(searchQuery.toLowerCase()) ||
+                          (p.category || '').toLowerCase().includes(searchQuery.toLowerCase());
     return matchesFilter && matchesSearch;
   });
 
